@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>1</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="a的设计.css"/>
+<base target="_blank"/>
+<script >
+<!--初始化页面容器大小-->
+window.onload=function()
+{
+    document.getElementById("leftdiv").style.width=window.screen.width*0.35+"px";
+    document.getElementById("leftdiv").style.height=window.screen.height*0.8+"px";
+    document.getElementById("menu1").style.height=window.screen.height*0.05+"px";
+    document.getElementById("menu1").style.width=window.screen.width*0.64+"px";
+    document.getElementById("content1").style.width=window.screen.width*0.64+"px";
+    document.getElementById("content2").style.width=window.screen.width*0.64+"px";
+    document.getElementById("content3").style.width=window.screen.width*0.64+"px";
+    document.getElementById("content1").style.height=window.screen.height*0.25+"px";
+    document.getElementById("content2").style.height=window.screen.height*0.25+"px";
+    document.getElementById("content3").style.height=window.screen.height*0.25+"px";
+};
+</script>
+</head>
+<body>
+<div id="leftdiv"><img src="01.jpg" style="height:inherit;weight:inherit"></div>
+<!--多级menu的设置-->
+<div id="menu1" class="header">
+<ul >
+    <li  class="header1">
+        <a id="menu_first" class="header1_a"  href="http://www.baidu.com">首页</a>
+    </li>
+    <li class="header1">
+        <a id="menu_second" class="header1">文章</a>
+        <ul class="ul2" id="menu2_second">
+            <li class="header2"><a>时事政事</a></li>
+            <li class="header2"><a>历史文献</a></li>
+            <li class="header2"><a>科研结果</a></li>
+        </ul>
+    </li>
+    <li class="header1">
+        <a id="menu_third" class="header1">视频</a>
+        <ul class="ul2" id="menu2_first" >
+             <li class="header2">
+             <a href="http://www.hao123.com">好123</a>
+             </li>
+             <li class="header2"><a href="http://www.apple.com">苹果官网</a></li>
+        </ul>
+    </li>
+    <li id="menu_right" class="header1">
+    <a  class="header1_a" href="http://www.hao123.com">关于</a>
+    </li>
+
+</ul>
+</div>
+
+<ul  >
+<li >
+<div id="content1">
+<h3>标题1</h3>
+</div>
+</li>
+
+<li >
+<div id="content2">
+<h3>标题2</h3>
+</div>
+</li>
+
+<li >
+<div id="content3">
+<h3>标题3</h3>
+</div>
+</li>
+</ul>
+
+
+</body>
+
+</html>

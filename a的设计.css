@@ -1,0 +1,84 @@
+/*取消所有浏览器的边距*/
+* {
+    margin: 0 0 0 0;
+    padding:0 0 0 0;
+}
+/*取消链接下划线*/
+a {
+    text-decoration:none;
+    color: black;
+}
+/*设置二级菜单绝对定位并隐藏*/
+.ul2 {
+    position: absolute;
+    list-style: none;
+    display: none;
+    background: #3a4953;
+    margin-top:1.32%;
+    width:15.7%;
+    height:5%;
+
+}
+.header2 {
+    float:none;
+}
+/*设置二级菜单的li的a的样式*/
+.header2>a {
+    text-align:center;
+    display:block;
+}
+/*鼠标放在一级菜单上，显示二级菜单*/
+#menu1>ul>li:hover>ul {
+    display: block;
+}
+/*设置普通区块的统一格式*/
+div {border:2px solid lightskyblue;float:left;background:#ccffff; padding:0px;}
+/*设置左边图片的边距*/
+#leftdiv {
+    margin-left:auto;
+    margin-bottom: 2%;
+    background:#ccffff;
+}
+/*设置一级列表的边距*/
+#menu1>ul {
+    list-style: none;
+    height: 100%;
+    width:100%;
+}
+
+
+/*设置一级菜单链接格式*/
+.header1>a {
+    display: block;
+    float:left;
+    background: #3a4953;
+    color: #ffffff;
+    text-decoration: none;
+    border-right: 1px solid #000000;
+    text-align: center;
+    height:100%;
+    width:24.5%;
+}
+/*设置菜单第一个的左边距和最后一个的右边距*/
+#menu_first {
+    margin-left:0.8%;
+}
+/*设置视频二级菜单左边距*/
+#menu2_first {
+    margin-left:31.91%;
+}
+
+/*取消列表的标记符号*/
+
+ul{
+    list-style:none;
+}
+
+/*设置文章二级菜单左边距*/
+#menu2_second{
+    margin-left:16.21%;
+}
+
+#menu2_second{
+    height:7.5%
+}
