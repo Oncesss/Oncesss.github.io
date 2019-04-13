@@ -82,3 +82,9 @@ ul{
 #menu2_second{
     height:7.5%
 }
+
+.content>li{
+    margin-left:5%;
+    margin-top:2.5%;
+    margin-bottom:2.5%;
+}
